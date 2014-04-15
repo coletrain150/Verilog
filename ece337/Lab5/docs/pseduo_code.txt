@@ -1,0 +1,21 @@
+idle:  if (enable_timer=0) goto idle; wait until enable_timer=1
+shift: wait 10 cycles
+       toggle shift strobe
+       wait 10 cycles
+       toggle shift strobe 
+       wait 10 cycles
+       toggle shift strobe
+       wait 10 cycles
+       toggle shift strobe 
+       wait 10 cycles
+       toggle shift strobe
+       wait 10 cycles
+       toggle shift strobe 
+       wait 10 cycles
+       toggle shift strobe
+       wait 10 cycles
+       toggle shift strobe 
+       wait 10 cycles
+       toggle shift strobe
+ done: packet_done = 1
+       go to idle

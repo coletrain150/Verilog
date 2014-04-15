@@ -1,0 +1,7 @@
+idle:  if (start_found=0) goto idle; wait until start_found=1
+	
+		Count 8 falling edges of SCL
+			byte_received = 1, ack_prep = 1
+		On 9th rising edge of SCL:
+		check_ack = 1
+			if fallingedge : ack_done = 1

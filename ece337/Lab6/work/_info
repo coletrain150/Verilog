@@ -1,0 +1,194 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/ecegrid/a/mg23/ece337/Lab6
+vcontroller
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 IY97>:ABl<3H>KmKJG_S8U2
+Z3 VZX:oin`;X]Q?E9:IZ^BdY2
+S1
+Z4 d/home/ecegrid/a/mg23/ece337/Lab6
+Z5 w1394558128
+Z6 8source/controller.sv
+Z7 Fsource/controller.sv
+L0 8
+Z8 OL;L;10.1b;51
+r1
+31
+Z9 tCoverage 63 CoverExcludeDefault 1 CoverOpt 1 CoverFEC 0 CoverShortCircuit 0
+!i10b 1
+Z10 !s100 i9B5=`=o=QTl@JA?9^H@m0
+Z11 !s105 controller_sv_unit
+!s85 0
+Z12 !s108 1394558133.248729
+Z13 !s107 source/controller.sv|
+Z14 !s90 source/controller.sv|
+vdecode
+R1
+Z15 ILHab@iEd>QQc4SozJj1XX3
+Z16 VD99IW:azBGLOR`bJ^96MI1
+S1
+R4
+Z17 w1394495787
+Z18 8source/decode.sv
+Z19 Fsource/decode.sv
+L0 10
+R8
+r1
+31
+R9
+Z20 !s100 U;FkT5EWan0i122EF2L;l3
+Z21 !s105 decode_sv_unit
+Z22 !s108 1394495789.857228
+Z23 !s107 source/decode.sv|
+Z24 !s90 source/decode.sv|
+!i10b 1
+!s85 0
+vi2c_slave
+R1
+!i10b 1
+!s100 9ZlGozBPzc5czG4ZST]<G0
+IL3eVTAXfZXlUO`ckgT24h1
+VRYKRdCQjoGF?^T>>h0F`d0
+!s105 i2c_slave_sv_unit
+S1
+R4
+w1394559775
+8source/i2c_slave.sv
+Fsource/i2c_slave.sv
+L0 10
+R8
+r1
+!s85 0
+31
+!s108 1394559790.413113
+!s107 source/i2c_slave.sv|
+!s90 source/i2c_slave.sv|
+R9
+vrx_sr
+R1
+Z25 I`QoHmcgnN]J4nk8mnXJ^L2
+Z26 VnjdSNle8Y>YKNHCjh1m`n3
+S1
+R4
+Z27 w1394553513
+Z28 8source/rx_sr.sv
+Z29 Fsource/rx_sr.sv
+L0 10
+R8
+r1
+31
+R9
+Z30 !s100 E:MH5JAObPeV?iIeTc=m_2
+Z31 !s105 rx_sr_sv_unit
+Z32 !s108 1394555585.026616
+Z33 !s107 source/rx_sr.sv|
+Z34 !s90 source/rx_sr.sv|
+!i10b 1
+!s85 0
+vscl_edge
+R1
+Z35 !s100 JBhYao=jbDbhOge@oVUco1
+Z36 IVdciGj[<?Q0md:=QP0fMz2
+Z37 VULO=miRAeL4=bVNGNGXW10
+Z38 !s105 scl_edge_sv_unit
+S1
+R4
+Z39 w1394248574
+Z40 8source/scl_edge.sv
+Z41 Fsource/scl_edge.sv
+L0 10
+R8
+r1
+31
+Z42 !s90 source/scl_edge.sv|
+R9
+Z43 !s108 1394303957.599215
+Z44 !s107 source/scl_edge.sv|
+!i10b 1
+!s85 0
+vsda_sel
+R1
+Z45 !s100 JMLV`O>5@JCG7`>l9][]L1
+Z46 I@]YO>0QjIKAZVo8`W_llm3
+Z47 V8Xh9?Lk81HO0e9SUTN<ZJ2
+Z48 !s105 sda_sel_sv_unit
+S1
+R4
+Z49 w1394248505
+Z50 8source/sda_sel.sv
+Z51 Fsource/sda_sel.sv
+L0 10
+R8
+r1
+31
+Z52 !s90 source/sda_sel.sv|
+R9
+Z53 !s108 1394303970.785459
+Z54 !s107 source/sda_sel.sv|
+!i10b 1
+!s85 0
+vtimer
+R1
+Z55 IE>3BZ5K^Af:aE7ngUIj[82
+Z56 V`XOkCZ6aYB=2IccBS3z_a3
+S1
+R4
+Z57 w1394555854
+Z58 8source/timer.sv
+Z59 Fsource/timer.sv
+L0 9
+R8
+r1
+31
+R9
+Z60 !s100 fdEa1QTh[^^iS=H[n2ok;0
+Z61 !s105 timer_sv_unit
+Z62 !s108 1394555857.187322
+Z63 !s107 source/timer.sv|
+Z64 !s90 source/timer.sv|
+!i10b 1
+!s85 0
+vtx_fifo
+R1
+Z65 I4AZUG<4;Xkh=XWFL>a[m53
+Z66 Vz:kXF[H=R7X^]9@1HLbja1
+S1
+R4
+Z67 w1394489398
+Z68 8source/tx_fifo.sv
+Z69 Fsource/tx_fifo.sv
+L0 10
+R8
+r1
+31
+R9
+Z70 !s100 Vja^D@K_c3fYHE=Z0_aJf1
+Z71 !s105 tx_fifo_sv_unit
+Z72 !s108 1394489415.817603
+Z73 !s107 source/tx_fifo.sv|
+Z74 !s90 source/tx_fifo.sv|
+!i10b 1
+!s85 0
+vtx_sr
+R1
+Z75 I1Uj[B^`amNS1REJM`83Ob0
+Z76 VjG@eNSh]G5N2cnhM5OWcT2
+S1
+R4
+Z77 w1394553935
+Z78 8source/tx_sr.sv
+Z79 Fsource/tx_sr.sv
+L0 8
+R8
+r1
+31
+R9
+Z80 !s100 KB>J<Ki6Z>:EXdoj>W^1@0
+Z81 !s105 tx_sr_sv_unit
+Z82 !s108 1394555579.181509
+Z83 !s107 source/tx_sr.sv|
+Z84 !s90 source/tx_sr.sv|
+!i10b 1
+!s85 0

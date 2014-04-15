@@ -1,0 +1,139 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : rcv_block
+Version: G-2012.06
+Date   : Mon Feb 24 21:09:09 2014
+****************************************
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: U2/U1/counter_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: U2/U1/counter_reg[1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U2/U1/counter_reg[1]/CLK (DFFSR)                        0.00       0.00 r
+  U2/U1/counter_reg[1]/Q (DFFSR)                          0.59       0.59 f
+  U2/U1/add_51/A[1] (flex_counter_NUM_CNT_BITS8_ROLLOVER_VAL11_DW01_inc_1)
+                                                          0.00       0.59 f
+  U2/U1/add_51/U28/Y (NAND2X1)                            0.22       0.80 r
+  U2/U1/add_51/U34/Y (NOR2X1)                             0.26       1.06 f
+  U2/U1/add_51/U45/Y (XOR2X1)                             0.19       1.26 r
+  U2/U1/add_51/SUM[4] (flex_counter_NUM_CNT_BITS8_ROLLOVER_VAL11_DW01_inc_1)
+                                                          0.00       1.26 r
+  U2/U1/U53/Y (INVX2)                                     0.09       1.35 f
+  U2/U1/U54/Y (NAND3X1)                                   0.14       1.49 r
+  U2/U1/U55/Y (NOR3X1)                                    0.16       1.65 f
+  U2/U1/U38/Y (NAND2X1)                                   0.23       1.88 r
+  U2/U1/U18/Y (NAND2X1)                                   0.06       1.94 f
+  U2/U1/U36/Y (NAND2X1)                                   0.09       2.04 r
+  U2/U1/counter_reg[1]/D (DFFSR)                          0.00       2.04 r
+  data arrival time                                                  2.04
+
+  clock clk (rise edge)                                   2.00       2.00
+  clock network delay (ideal)                             0.00       2.00
+  U2/U1/counter_reg[1]/CLK (DFFSR)                        0.00       2.00 r
+  library setup time                                     -0.21       1.79
+  data required time                                                 1.79
+  --------------------------------------------------------------------------
+  data required time                                                 1.79
+  data arrival time                                                 -2.04
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.25
+
+
+1
+ 
+****************************************
+Report : area
+Design : rcv_block
+Version: G-2012.06
+Date   : Mon Feb 24 21:09:09 2014
+****************************************
+
+Library(s) Used:
+
+    osu05_stdcells (File: /package/eda/cells/OSU/v2.7/synopsys/lib/ami05/osu05_stdcells.db)
+
+Number of ports:                           15
+Number of nets:                            31
+Number of cells:                            6
+Number of combinational cells:              0
+Number of sequential cells:                 0
+Number of macros:                           0
+Number of buf/inv:                          0
+Number of references:                       6
+
+Combinational area:       52380.000000
+Noncombinational area:    69696.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          122076.000000
+Total area:                 undefined
+1
+Loading db file '/package/eda/cells/OSU/v2.7/synopsys/lib/ami05/osu05_stdcells.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : rcv_block
+Version: G-2012.06
+Date   : Mon Feb 24 21:09:10 2014
+****************************************
+
+
+Library(s) Used:
+
+    osu05_stdcells (File: /package/eda/cells/OSU/v2.7/synopsys/lib/ami05/osu05_stdcells.db)
+
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 5    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+rcv_block                                 2.011   48.352   37.441   50.363 100.0
+  U6 (stop_bit_chk)                    2.06e-03    1.026    0.737    1.028   2.0
+  U5 (start_bit_det)                   7.51e-02    3.581    1.681    3.656   7.3
+  U4 (rx_data_buff)                    2.00e-03   10.348    6.811   10.350  20.6
+  U3 (sr_9bit)                            0.119    9.398    6.005    9.516  18.9
+    U1 (flex_stp_sr)                      0.119    9.398    6.005    9.516  18.9
+  U2 (timer)                              1.456   20.451   18.962   21.907  43.5
+    U2 (flex_counter_NUM_CNT_BITS8_ROLLOVER_VAL9)
+                                          0.147    9.332    9.244    9.480  18.8
+      add_51 (flex_counter_NUM_CNT_BITS8_ROLLOVER_VAL9_DW01_inc_1)
+                                       1.51e-02 1.44e-02    2.056 2.95e-02   0.1
+    U1 (flex_counter_NUM_CNT_BITS8_ROLLOVER_VAL11)
+                                          1.309   11.118    9.717   12.427  24.7
+      add_51 (flex_counter_NUM_CNT_BITS8_ROLLOVER_VAL11_DW01_inc_1)
+                                          0.350    0.350    2.228    0.700   1.4
+  U1 (rcu)                                0.357    3.548    3.246    3.905   7.8
+1

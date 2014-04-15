@@ -1,0 +1,9 @@
+// $Id: $
+// File name:   sensor_d.sv
+// Created:     1/28/2014
+// Author:      Cole Reinhold
+// Lab Section: 337-01
+// Version:     1.0  Initial Design Entry
+// Description: dataflow style sensor
+// :wq
+// 

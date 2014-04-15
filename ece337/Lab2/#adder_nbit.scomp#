@@ -1,0 +1,8 @@
+
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module adder_nbit
+** Error: source/adder_nbit.sv(14): near "(": syntax error, unexpected '('
+** Error: source/adder_nbit.sv(25): (vlog-2730) Undefined variable: 'carry_in'.
+** Error: source/adder_nbit.sv(29): (vlog-2730) Undefined variable: 'a'.
+** Error: source/adder_nbit.sv(29): (vlog-2730) Undefined variable: 'b'.
+** Error: source/adder_nbit.sv(30): (vlog-2730) Undefined variable: 'sum'.

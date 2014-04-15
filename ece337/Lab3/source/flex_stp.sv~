@@ -1,0 +1,7 @@
+// $Id: $
+// File name:   flex_stp.sv
+// Created:     2/4/2014
+// Author:      Cole Reinhold
+// Lab Section: 337-01
+// Version:     1.0  Initial Design Entry
+// Description: serial to parallel shift register

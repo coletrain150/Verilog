@@ -1,0 +1,69 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/ecegrid/a/mg23/ece337/Lab1
+T_opt
+VEd3SmRPHkF]U9hCnMGm`M0
+=1-000000000000-52d58731-7025a-2bfc
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1b;51
+vcomparator
+Ik8UlIUFBF6GJk<P0YSX0V2
+V33^>E]EI4>0ROmaHolP>A3
+Z1 d/home/ecegrid/a/mg23/ece337/Lab1
+Z2 w1389724723
+Z3 8mapped/comparator.v
+Z4 Fmapped/comparator.v
+L0 118
+Z5 OL;L;10.1b;51
+r1
+31
+Z6 !s108 1389725310.559497
+Z7 !s107 mapped/comparator.v|
+Z8 !s90 -reportprogress|300|mapped/comparator.v|
+Z9 tCoverage 63 CoverExcludeDefault 1 CoverOpt 1 CoverFEC 0 CoverShortCircuit 0
+!i10b 1
+!s100 o1Zoh[0ZHo>jd:9kbFU3Y3
+!s85 0
+vcomparator_DW01_cmp6_0
+I`eHFbG_?]WJ]Od4Li`o@`1
+VeIeE@dZhID=RmDgaX<f`@2
+R1
+R2
+R3
+R4
+L0 2
+R5
+r1
+31
+R6
+R7
+R8
+R9
+ncomparator_@d@w01_cmp6_0
+!i10b 1
+!s100 M4FY]oLX]KRfikQ=5D5B33
+!s85 0
+Xcomparator_sv_unit
+DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+IChl1[9YhR8V2W>Ohj^A993
+VChl1[9YhR8V2W>Ohj^A993
+S1
+R1
+w1389721064
+8source/comparator.sv
+Fsource/comparator.sv
+L0 49
+R5
+r1
+31
+R9
+!s107 source/comparator.sv|
+!s90 -reportprogress|300|source/comparator.sv|
+!s108 1389721066.183619
+!s100 ?[I:OO[DNW7R69W0ScCc00
+!i10b 1
+!i103 1
+!s85 0

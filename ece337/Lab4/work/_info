@@ -1,0 +1,131 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/ecegrid/a/mg23/ece337/Lab4
+vavg_four
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 !s100 YLQlh^Ba5NHI2O;a^DBRm0
+Z3 I8ZmEmZ6_G8`8CgMAYm8D<2
+Z4 VAZFzXzFd3URhJGaI<7H_J0
+Z5 !s105 avg_four_sv_unit
+S1
+Z6 d/home/ecegrid/a/mg23/ece337/Lab4
+Z7 w1392707460
+Z8 8source/avg_four.sv
+Z9 Fsource/avg_four.sv
+L0 9
+Z10 OL;L;10.1b;51
+r1
+31
+Z11 !s90 source/avg_four.sv|
+Z12 tCoverage 63 CoverExcludeDefault 1 CoverOpt 1 CoverFEC 0 CoverShortCircuit 0
+Z13 !s108 1392707558.122393
+Z14 !s107 source/avg_four.sv|
+!i10b 1
+!s85 0
+vcontroller
+R1
+Z15 IaaHQ9HKBToMVzj5;gnN5U1
+Z16 VJ_h3ED2TFAnonF0ZLmc6[0
+Z17 !s105 controller_sv_unit
+S1
+R6
+Z18 w1392706837
+Z19 8source/controller.sv
+Z20 Fsource/controller.sv
+L0 9
+R10
+r1
+31
+Z21 !s90 source/controller.sv|
+R12
+!i10b 1
+Z22 !s100 =MjKCl_jD^;dVBV3bdRIL2
+!s85 0
+Z23 !s108 1392707571.543850
+Z24 !s107 source/controller.sv|
+vcounter
+R1
+Z25 !s100 79fT@P?bNabS:Jb^UM5Zb1
+Z26 IRGLcC=iZofzOADSi^lM[81
+Z27 VEJ1l5NfC5ji4FX]8M957i0
+Z28 !s105 counter_sv_unit
+S1
+R6
+Z29 w1392703997
+Z30 8source/counter.sv
+Z31 Fsource/counter.sv
+L0 10
+R10
+r1
+31
+Z32 !s90 source/counter.sv|
+R12
+Z33 !s108 1392707563.505588
+Z34 !s107 source/counter.sv|
+!i10b 1
+!s85 0
+vmealy
+R1
+Z35 I05mgO4aGXDP=C4F=nilPV1
+Z36 Von3IVd10EIV=dC82=Xd;02
+S1
+R6
+Z37 w1392678668
+Z38 8source/mealy.sv
+Z39 Fsource/mealy.sv
+L0 9
+R10
+r1
+31
+R12
+Z40 !s100 7ence0oX80mSZKm<]1`TJ3
+Z41 !s105 mealy_sv_unit
+Z42 !s108 1392678670.647824
+Z43 !s107 source/mealy.sv|
+Z44 !s90 source/mealy.sv|
+!i10b 1
+!s85 0
+vmoore
+R1
+Z45 !s100 kg;8=L;F0Hj`DMRA@Jgf00
+Z46 Ibfi3H>[QI0<oF5dN[JOPI3
+Z47 V_b89hA16d7:`P]5ZPa:Z41
+Z48 !s105 moore_sv_unit
+S1
+R6
+Z49 w1392677385
+Z50 8source/moore.sv
+Z51 Fsource/moore.sv
+L0 10
+R10
+r1
+31
+R12
+Z52 !s108 1392678559.687623
+Z53 !s107 source/moore.sv|
+Z54 !s90 source/moore.sv|
+!i10b 1
+!s85 0
+vsync
+R1
+!i10b 1
+Z55 !s100 NKD5499imBeO=0cffOk@c1
+Z56 I6KTg;3:[:X8_`_a<e8LS83
+Z57 V?7PmhR1]:k3mfolDg1Jln3
+Z58 !s105 sync_sv_unit
+S1
+R6
+Z59 w1392701662
+Z60 8source/sync.sv
+Z61 Fsource/sync.sv
+L0 9
+R10
+r1
+!s85 0
+31
+!s108 1392707576.839563
+!s107 source/sync.sv|
+Z62 !s90 source/sync.sv|
+R12

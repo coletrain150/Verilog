@@ -1,0 +1,181 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : avg_four
+Version: G-2012.06
+Date   : Mon Feb 24 19:24:09 2014
+****************************************
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: U1/state_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: U3/REG_FILE/regs_reg[0][13]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U1/state_reg[1]/CLK (DFFSR)                             0.00       0.00 r
+  U1/state_reg[1]/Q (DFFSR)                               0.45       0.45 r
+  U1/U20/Y (BUFX2)                                        0.20       0.66 r
+  U1/U41/Y (OR2X2)                                        0.26       0.92 r
+  U1/U58/Y (OR2X2)                                        0.24       1.16 r
+  U1/U53/Y (INVX4)                                        0.12       1.28 f
+  U1/src2[2] (controller)                                 0.00       1.28 f
+  U3/src2[2] (datapath)                                   0.00       1.28 f
+  U3/REG_FILE/r2_sel[2] (regfile_NUM_REG_ADDR_BITS4_REG_SIZE_BITS16)
+                                                          0.00       1.28 f
+  U3/REG_FILE/U266/Y (INVX2)                              0.10       1.38 r
+  U3/REG_FILE/U774/Y (NOR2X1)                             0.19       1.57 f
+  U3/REG_FILE/U775/Y (NAND3X1)                            0.17       1.74 r
+  U3/REG_FILE/U260/Y (BUFX4)                              0.27       2.01 r
+  U3/REG_FILE/U995/Y (OAI21X1)                            0.09       2.10 f
+  U3/REG_FILE/U997/Y (NOR2X1)                             0.10       2.21 r
+  U3/REG_FILE/U998/Y (NAND3X1)                            0.06       2.27 f
+  U3/REG_FILE/r2_data[6] (regfile_NUM_REG_ADDR_BITS4_REG_SIZE_BITS16)
+                                                          0.00       2.27 f
+  U3/ALU_MAP/B[6] (alu_DATA_SIZE_BITS16)                  0.00       2.27 f
+  U3/ALU_MAP/U66/Y (AND2X2)                               0.25       2.52 f
+  U3/ALU_MAP/CLA_ADDR/B[6] (scalable_cla_addr_NUM_CLA_BLKS4_CLA_BLK_SIZE_BITS4)
+                                                          0.00       2.52 f
+  U3/ALU_MAP/CLA_ADDR/CLA_BLK_1/B[2] (scalable_cla_block_CLA_BLK_SIZE_BITS4_2)
+                                                          0.00       2.52 f
+  U3/ALU_MAP/CLA_ADDR/CLA_BLK_1/U5/Y (INVX2)              0.07       2.59 r
+  U3/ALU_MAP/CLA_ADDR/CLA_BLK_1/U20/Y (NAND2X1)           0.07       2.66 f
+  U3/ALU_MAP/CLA_ADDR/CLA_BLK_1/U21/Y (NAND2X1)           0.12       2.78 r
+  U3/ALU_MAP/CLA_ADDR/CLA_BLK_1/U37/Y (AOI22X1)           0.12       2.90 f
+  U3/ALU_MAP/CLA_ADDR/CLA_BLK_1/U39/Y (AOI22X1)           0.13       3.03 r
+  U3/ALU_MAP/CLA_ADDR/CLA_BLK_1/U40/Y (OAI21X1)           0.13       3.16 f
+  U3/ALU_MAP/CLA_ADDR/CLA_BLK_1/GG (scalable_cla_block_CLA_BLK_SIZE_BITS4_2)
+                                                          0.00       3.16 f
+  U3/ALU_MAP/CLA_ADDR/U10/Y (AOI21X1)                     0.11       3.27 r
+  U3/ALU_MAP/CLA_ADDR/U11/Y (OAI21X1)                     0.09       3.36 f
+  U3/ALU_MAP/CLA_ADDR/U2/Y (BUFX4)                        0.27       3.63 f
+  U3/ALU_MAP/CLA_ADDR/CLA_BLK_3/Cin (scalable_cla_block_CLA_BLK_SIZE_BITS4_0)
+                                                          0.00       3.63 f
+  U3/ALU_MAP/CLA_ADDR/CLA_BLK_3/U23/Y (INVX1)             0.10       3.73 r
+  U3/ALU_MAP/CLA_ADDR/CLA_BLK_3/U51/Y (NAND2X1)           0.07       3.80 f
+  U3/ALU_MAP/CLA_ADDR/CLA_BLK_3/U54/Y (NAND3X1)           0.13       3.93 r
+  U3/ALU_MAP/CLA_ADDR/CLA_BLK_3/S[1] (scalable_cla_block_CLA_BLK_SIZE_BITS4_0)
+                                                          0.00       3.93 r
+  U3/ALU_MAP/CLA_ADDR/S[13] (scalable_cla_addr_NUM_CLA_BLKS4_CLA_BLK_SIZE_BITS4)
+                                                          0.00       3.93 r
+  U3/ALU_MAP/U99/Y (MUX2X1)                               0.10       4.03 f
+  U3/ALU_MAP/U54/Y (INVX1)                                0.11       4.14 r
+  U3/ALU_MAP/result[13] (alu_DATA_SIZE_BITS16)            0.00       4.14 r
+  U3/U34/Y (AOI22X1)                                      0.20       4.34 f
+  U3/U18/Y (INVX4)                                        0.22       4.56 r
+  U3/REG_FILE/w_data[13] (regfile_NUM_REG_ADDR_BITS4_REG_SIZE_BITS16)
+                                                          0.00       4.56 r
+  U3/REG_FILE/U687/Y (INVX8)                              0.13       4.68 f
+  U3/REG_FILE/U542/Y (MUX2X1)                             0.11       4.80 r
+  U3/REG_FILE/regs_reg[0][13]/D (DFFSR)                   0.00       4.80 r
+  data arrival time                                                  4.80
+
+  clock clk (rise edge)                                   4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  U3/REG_FILE/regs_reg[0][13]/CLK (DFFSR)                 0.00       4.00 r
+  library setup time                                     -0.22       3.78
+  data required time                                                 3.78
+  --------------------------------------------------------------------------
+  data required time                                                 3.78
+  data arrival time                                                 -4.80
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.02
+
+
+1
+ 
+****************************************
+Report : area
+Design : avg_four
+Version: G-2012.06
+Date   : Mon Feb 24 19:24:09 2014
+****************************************
+
+Library(s) Used:
+
+    osu05_stdcells (File: /package/eda/cells/OSU/v2.7/synopsys/lib/ami05/osu05_stdcells.db)
+
+Number of ports:                           38
+Number of nets:                            52
+Number of cells:                            4
+Number of combinational cells:              0
+Number of sequential cells:                 0
+Number of macros:                           0
+Number of buf/inv:                          0
+Number of references:                       4
+
+Combinational area:       490761.000000
+Noncombinational area:    424512.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          915273.000000
+Total area:                 undefined
+1
+Loading db file '/package/eda/cells/OSU/v2.7/synopsys/lib/ami05/osu05_stdcells.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : avg_four
+Version: G-2012.06
+Date   : Mon Feb 24 19:24:10 2014
+****************************************
+
+
+Library(s) Used:
+
+    osu05_stdcells (File: /package/eda/cells/OSU/v2.7/synopsys/lib/ami05/osu05_stdcells.db)
+
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 5    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+avg_four                                 16.790  147.522  279.243  164.312 100.0
+  U4 (counter)                         4.25e-02    2.648    3.764    2.691   1.6
+  U3 (datapath)                          15.126  139.524  266.026  154.651  94.1
+    ALU_MAP (alu_DATA_SIZE_BITS16)        1.225    1.124   27.828    2.349   1.4
+      CLA_ADDR (scalable_cla_addr_NUM_CLA_BLKS4_CLA_BLK_SIZE_BITS4)
+                                          0.591    0.602   20.152    1.193   0.7
+        CLA_BLK_3 (scalable_cla_block_CLA_BLK_SIZE_BITS4_0)
+                                          0.151    0.157    5.190    0.308   0.2
+        CLA_BLK_2 (scalable_cla_block_CLA_BLK_SIZE_BITS4_1)
+                                          0.177    0.167    5.478    0.344   0.2
+        CLA_BLK_1 (scalable_cla_block_CLA_BLK_SIZE_BITS4_2)
+                                          0.144    0.151    4.355    0.295   0.2
+        CLA_BLK_0 (scalable_cla_block_CLA_BLK_SIZE_BITS4_3)
+                                          0.110    0.117    4.257    0.227   0.1
+    REG_FILE (regfile_NUM_REG_ADDR_BITS4_REG_SIZE_BITS16)
+                                         10.955  137.228  235.228  148.183  90.2
+    DP_CTRL (datapath_ctrl)            5.60e-02 3.03e-02    0.234 8.63e-02   0.1
+  U1 (controller)                         1.592    4.180    8.386    5.772   3.5
+  U2 (sync)                            2.95e-02    1.169    1.066    1.199   0.7
+1

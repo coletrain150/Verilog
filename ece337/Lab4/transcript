@@ -1,0 +1,654 @@
+# //  ModelSim SE-64 10.1b Apr 26 2012 Linux 2.6.32-431.3.1.el6.x86_64
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim +no_glitch_msg -L /home/ecegrid/a/ece337/Class0.5u/ECE337_IP/vsim -L /home/ecegrid/a/ece337/Class0.5u/GOLD_LIB -Lf /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work -coverage -i -t ps mapped_work.tb_avg_four 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-2062) File copy process terminated with code 1; see log file /tmp/cpyoutbE2T4q for more details.
+# ** Warning: (vopt-2078) Auxiliary debug file copy was incomplete.
+# Loading sv_std.std
+# Loading work.tb_avg_four(fast)
+# Loading work.avg_four(fast)
+# ** Warning: (vsim-PLI-3691) source/tb_avg_four.sv(176): Expected a system task, not a system function '$fscanf'.
+#         Region: /tb_avg_four
+# ** Warning: (vsim-PLI-3691) source/tb_avg_four.sv(181): Expected a system task, not a system function '$fscanf'.
+#         Region: /tb_avg_four
+# ** Warning: (vsim-PLI-3691) source/tb_avg_four.sv(182): Expected a system task, not a system function '$fscanf'.
+#         Region: /tb_avg_four
+# ** Warning: (vsim-PLI-3691) source/tb_avg_four.sv(183): Expected a system task, not a system function '$fscanf'.
+#         Region: /tb_avg_four
+# ** Warning: (vsim-PLI-3691) source/tb_avg_four.sv(184): Expected a system task, not a system function '$fscanf'.
+#         Region: /tb_avg_four
+# ** Warning: (vsim-PLI-3691) source/tb_avg_four.sv(192): Expected a system task, not a system function '$fscanf'.
+#         Region: /tb_avg_four
+# ** Warning: (vsim-PLI-3691) source/tb_avg_four.sv(214): Expected a system task, not a system function '$fscanf'.
+#         Region: /tb_avg_four
+# ** Warning: (vsim-PLI-3691) source/tb_avg_four.sv(236): Expected a system task, not a system function '$fseek'.
+#         Region: /tb_avg_four
+# ** Warning: (vsim-PLI-3691) source/tb_avg_four.sv(261): Expected a system task, not a system function '$fseek'.
+#         Region: /tb_avg_four
+# ** Warning: (vsim-PLI-3691) source/tb_avg_four.sv(278): Expected a system task, not a system function '$fscanf'.
+#         Region: /tb_avg_four
+# ** Warning: (vsim-PLI-3691) source/tb_avg_four.sv(279): Expected a system task, not a system function '$fscanf'.
+#         Region: /tb_avg_four
+# ** Warning: (vsim-PLI-3691) source/tb_avg_four.sv(280): Expected a system task, not a system function '$fscanf'.
+#         Region: /tb_avg_four
+# ** Warning: (vsim-PLI-3691) source/tb_avg_four.sv(342): Expected a system task, not a system function '$fseek'.
+#         Region: /tb_avg_four
+# ** Warning: (vsim-PLI-3691) source/tb_avg_four.sv(344): Expected a system task, not a system function '$fseek'.
+#         Region: /tb_avg_four
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.dffsr(metastabilitywrapperarch)#1
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.prim(body)
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.dffsr_core(behavioral)#1
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.invx4(behavioral)#1
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.bufx2(behavioral)#1
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.invx2(behavioral)#1
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.invx1(behavioral)#1
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.bufx4(behavioral)#1
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.or2x2(behavioral)#1
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.and2x2(behavioral)#1
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.nand3x1(behavioral)#1
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.and2x1(behavioral)#1
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.oai22x1(behavioral)#1
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.nand2x1(behavioral)#1
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.nor2x1(behavioral)#1
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.aoi21x1(behavioral)#1
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.oai21x1(behavioral)#1
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.aoi22x1(behavioral)#1
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.mux2x1(behavioral)#1
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading /home/ecegrid/a/ece337/Class0.5u/ECE337_IP/vsim.datapath(flexible_datapath)#1
+# Loading /home/ecegrid/a/ece337/Class0.5u/ECE337_IP/vsim.scalable_cla_addr(cla_blk_arch)#1
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.xnor2x1(behavioral)#1
+# Loading /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work.xor2x1(behavioral)#1
+run 2000ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ps  Iteration: 3  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ps  Iteration: 3  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ps  Iteration: 3  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ps  Iteration: 3  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ps  Iteration: 3  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ps  Iteration: 3  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 921 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 921 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 921 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 921 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 921 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 921 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 922 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 922 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 922 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 941 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 941 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 941 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# Input bitmap file uses the BITMAPINFOHEADER type of DIB header
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 33943 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 33943 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 33943 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 43546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 43546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 43546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 43579 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 43579 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 43579 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 43905 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 43905 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 43905 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 53546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 53546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 53546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 53547 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 53547 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 53547 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 63648 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 63648 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 63648 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 198943 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 198943 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 198943 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 208546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 208546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 208546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 208579 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 208579 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 208579 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 208905 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 208905 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 208905 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 218546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 218546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 218546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 218547 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 218547 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 218547 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 228648 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 228648 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 228648 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 363943 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 363943 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 363943 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 373546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 373546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 373546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 373579 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 373579 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 373579 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 373905 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 373905 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 373905 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 383546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 383546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 383546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 383547 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 383547 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 383547 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 393648 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 393648 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 393648 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 528943 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 528943 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 528943 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 538546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 538546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 538546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 538579 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 538579 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 538579 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 538905 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 538905 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 538905 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 548546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 548546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 548546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 548547 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 548547 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 548547 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 558648 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 558648 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 558648 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 693943 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 693943 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 693943 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 703546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 703546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 703546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 703579 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 703579 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 703579 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 703905 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 703905 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 703905 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 713546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 713546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 713546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 713547 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 713547 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 713547 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 723648 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 723648 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 723648 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 858943 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 858943 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 858943 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 868546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 868546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 868546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 868579 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 868579 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 868579 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 868905 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 868905 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 868905 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 878546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 878546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 878546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 878547 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 878547 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 878547 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 888648 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 888648 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 888648 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1023943 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1023943 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1023943 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1033546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1033546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1033546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1033579 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1033579 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1033579 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1033905 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1033905 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1033905 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1043546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1043546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1043546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1043547 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1043547 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1043547 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1053648 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1053648 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1053648 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1188943 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1188943 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1188943 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1198546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1198546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1198546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1198579 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1198579 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1198579 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1198905 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1198905 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1198905 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1208546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1208546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1208546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1208547 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1208547 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1208547 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1218648 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1218648 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1218648 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1353943 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1353943 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1353943 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1363546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1363546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1363546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1363579 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1363579 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1363579 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1363905 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1363905 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1363905 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1373546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1373546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1373546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1373547 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1373547 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1373547 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1383648 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1383648 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1383648 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1518943 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1518943 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1518943 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1528546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1528546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1528546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1528579 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1528579 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1528579 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1528905 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1528905 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1528905 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1538546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1538546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1538546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1538547 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1538547 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1538547 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1548648 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1548648 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1548648 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1683943 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1683943 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1683943 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1693546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1693546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1693546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1693579 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1693579 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1693579 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1693905 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1693905 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1693905 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1703546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1703546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1703546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1703547 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1703547 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1703547 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1713648 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1713648 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1713648 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1848943 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1848943 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1848943 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1858546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1858546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1858546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1858579 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1858579 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1858579 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1858905 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1858905 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1858905 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1868546 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1868546 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1868546 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1868547 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1868547 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1868547 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1878648 ps  Iteration: 1  Instance: /tb_avg_four/B_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1878648 ps  Iteration: 1  Instance: /tb_avg_four/G_DUT/U3/REG_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1878648 ps  Iteration: 1  Instance: /tb_avg_four/R_DUT/U3/REG_FILE

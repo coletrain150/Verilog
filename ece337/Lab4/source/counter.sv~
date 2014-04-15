@@ -1,0 +1,56 @@
+// $Id: $
+// File name:   flex_counter.sv
+// Created:     2/11/2014
+// Author:      Cole Reinhold
+// Lab Section: 337-01
+// Version:     1.0  Initial Design Entry
+// Description: flexivle svalable counter
+
+
+module counter
+#(
+parameter NUM_CNT_BITS = 10
+)
+(
+ input wire clk,
+ input wire n_reset,
+ input wire cnt_up,
+ output wire one_k_samples
+);
+   reg	flagger;
+   assign one_k_samples = flagger;
+   reg rollover_val = 1000;  
+   reg [NUM_CNT_BITS-1:0] counter;
+   reg [NUM_CNT_BITS-1:0] nextcnt = 0;
+   
+   
+ always_ff @ (posedge clk, negedge n_reset)
+    begin
+       if(1'b0 == n_reset) begin
+	  counter <= '0;
+       end   
+       else begin
+	  //rollover_flag<=flagger;
+	  counter <= nextcnt;
+       end
+ 
+    end
+   
+always_comb
+  begin
+	flagger = 0;
+	nextcnt = counter;
+     if(nextcnt == rollover_val) begin
+	flagger = 1;
+	nextcnt = 1;
+     end
+     else if(cnt_up == 1) begin
+	   nextcnt = nextcnt + 1;   
+	end
+	
+  end // always_comb begin
+   
+	
+
+
+endmodule

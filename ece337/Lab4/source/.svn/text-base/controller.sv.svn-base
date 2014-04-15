@@ -1,0 +1,214 @@
+// $Id: $
+// File name:   controller.sv
+// Created:     2/17/2014
+// Author:      Cole Reinhold
+// Lab Section: 337-01
+// Version:     1.0  Initial Design Entry
+// Description: controller module
+
+
+module controller
+(
+ input wire clk,
+ input wire n_reset,
+ input wire dr,
+ input wire overflow,
+ output reg cnt_up,
+ output wire modwait,
+ output reg [1:0] op,
+ output reg [3:0] src1,
+ output reg [3:0] src2,
+ output reg [3:0] dest,
+ output reg err
+);
+
+
+reg flag;
+   typedef enum bit [3:0]{IDLE, STORE, SORT1, SORT2, SORT3, SORT4, ADD1, ADD2, ADD3, EIDLE} stateType;
+reg nextflag;
+   
+assign modwait = flag;
+stateType state;  
+stateType nextstate;
+   
+always_ff@(posedge clk, negedge n_reset)
+  begin
+     if (n_reset == 0) begin
+       state <= IDLE;
+     end
+     else begin
+	state <= nextstate;
+     end
+  end
+   
+always_ff@(posedge clk, negedge n_reset)
+  begin
+     if (n_reset == 0) begin
+       flag <= 0;
+     end
+     else begin
+	flag <= nextflag;
+     end
+  end
+
+
+always_comb
+  begin
+     case(state)
+       IDLE:begin
+	  if(dr==1)begin
+	     nextstate = STORE;
+	  end
+	  else begin
+	     nextstate = IDLE;
+	  end
+       end
+       STORE:begin
+	  if(dr==1)begin
+	     nextstate = SORT1;
+	  end
+	  else begin
+	     nextstate = EIDLE;
+	  end
+       end
+       SORT1:begin
+	  nextstate = SORT2;
+       end
+       SORT2:begin
+	  nextstate = SORT3;
+	  end
+       SORT3:begin
+	  nextstate = SORT4;
+       end
+       SORT4:begin
+	  nextstate = ADD1;
+       end
+       ADD1:begin
+	  if(overflow == 0) begin
+	     nextstate = ADD2;
+	  end
+	  else begin
+	     nextstate = EIDLE;
+	  end
+       end
+       ADD2:begin
+	  if(overflow == 0) begin
+	     nextstate = ADD3;
+	  end
+	  else begin
+	     nextstate = EIDLE;
+	  end
+       end
+       ADD3:begin
+	  if(overflow==0)begin
+	     nextstate = IDLE;
+	  end
+	  else begin
+	     nextstate = EIDLE;
+	  end
+       end
+       EIDLE:begin
+	  if(dr == 1)begin
+	     nextstate = STORE;
+	  end
+	  else begin
+	     nextstate = EIDLE;
+	  end
+       end
+       
+       default : nextstate = IDLE;
+     endcase // case (state)
+  end // block: case(state)
+
+always_comb
+  begin
+     nextflag  = 0;
+     cnt_up=0;
+     err = 0;
+     op = 2'b00;
+     nextflag = 0;
+     src2 = 0;
+     dest = 0;
+     src1 = 0;
+     
+     case(state)
+       IDLE:begin
+	  cnt_up=0;
+	  err = 0;
+	  op = 2'b00;
+       end
+       STORE:begin
+	  nextflag = 1;
+	  op = 2'b10;
+	  dest = 5;
+	  
+       end
+       SORT1:begin
+	  src1 = 2;
+	  cnt_up = 1;
+	  nextflag = 1;
+	  dest = 1;
+	  op = 2'b01;
+	  
+       end
+       SORT2:begin
+	  cnt_up = 0;
+	  nextflag = 1;
+	  src1 = 3;
+	  dest = 2;
+	  op = 2'b01;
+	  
+       end
+       
+       SORT3:begin
+	  nextflag = 1;
+	  src1 = 4;
+	  dest = 3;
+	  op = 2'b01;
+	  cnt_up = 0;
+	  
+       end
+       SORT4:begin
+	  nextflag = 1;
+	  src1 = 5;
+	  dest = 4;
+	  op = 2'b01;
+	  cnt_up = 0;
+	  
+	  
+       end
+       ADD1:begin
+	  nextflag = 1;
+	  op = 2'b11;
+	  src1 = 1;
+	  src2 = 2;
+	  dest = 0;
+	  
+       end
+       ADD2:begin
+ 	  nextflag = 1;
+	  op = 2'b11;
+	  src1 = 0;
+	  src2 = 3;
+	  dest = 0;  
+       end
+       ADD3:begin
+	  nextflag = 1;
+	  op = 2'b11;
+	  src1 = 0;
+	  src2 = 4;
+	  dest = 0;
+       end
+       EIDLE:begin
+	  nextflag = 0;
+	  err = 1;
+	  op = 2'b00;
+	  cnt_up = 0;
+	  
+	  
+       end
+     endcase // case (state)
+  end // block: case(state)
+endmodule // controller
+
+   

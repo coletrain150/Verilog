@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/ecegrid/a/mg23/ece337/Lab5
+vflex_counter
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 !s100 IEoZDIP^T`;?FQRmeK10R0
+Z3 I1hgNUANQSV[<TL^@Ca2Ll1
+Z4 VNaNVoeRaVGb9W9R<UkLHG1
+Z5 !s105 flex_counter_sv_unit
+S1
+Z6 d/home/ecegrid/a/mg23/ece337/Lab5
+Z7 w1393098958
+Z8 8source/flex_counter.sv
+Z9 Fsource/flex_counter.sv
+L0 10
+Z10 OL;L;10.1b;51
+r1
+31
+Z11 !s90 source/flex_counter.sv|
+Z12 tCoverage 63 CoverExcludeDefault 1 CoverOpt 1 CoverFEC 0 CoverShortCircuit 0
+Z13 !s108 1393099721.176793
+Z14 !s107 source/flex_counter.sv|
+!i10b 1
+!s85 0
+vrcu
+R1
+Z15 I:6]f`YRA=3m2c4QlO3QR:1
+Z16 VY[fE37nKSVLQhQ5akMC@b0
+S1
+R6
+Z17 w1393101994
+Z18 8source/rcu.sv
+Z19 Fsource/rcu.sv
+L0 9
+R10
+r1
+31
+R12
+Z20 !s100 4fF=nA]2]jKOeLjTVU;z^1
+Z21 !s105 rcu_sv_unit
+Z22 !s108 1393101998.107061
+Z23 !s107 source/rcu.sv|
+Z24 !s90 source/rcu.sv|
+!i10b 1
+!s85 0
+vrcv_block
+R1
+!i10b 1
+!s100 8U1XFeDgT^o1hS55jnEMW2
+Ia?>gJ>f[T<>gX52JeN@m50
+VTKKQhEoKSGn@M>X3]FgbL1
+!s105 rcv_block_sv_unit
+S1
+R6
+w1393105526
+8source/rcv_block.sv
+Fsource/rcv_block.sv
+L0 10
+R10
+r1
+!s85 0
+31
+!s108 1393105529.155430
+!s107 source/rcv_block.sv|
+!s90 source/rcv_block.sv|
+R12
+vsr_9bit
+R1
+Z25 Ie:kNLGFDOg[]S<:ZM?Z:Y2
+Z26 VzL0DSSzGn7hWk:i@TQ`ec1
+S1
+R6
+Z27 w1393103310
+Z28 8source/sr_9bit.sv
+Z29 Fsource/sr_9bit.sv
+L0 9
+R10
+r1
+31
+R12
+!i10b 1
+Z30 !s100 BzMh?7EU?dfQZKC[AGeW]1
+Z31 !s105 sr_9bit_sv_unit
+!s85 0
+Z32 !s108 1393103315.764403
+Z33 !s107 source/sr_9bit.sv|
+Z34 !s90 source/sr_9bit.sv|
+vtimer
+R1
+Z35 !s100 SZLdzTL494Zmn:RTHLPV10
+Z36 ILS<6o[?^lKeCheLnUnVn43
+Z37 VkUG6Yd@=FAX?Va95zaL]z0
+Z38 !s105 timer_sv_unit
+S1
+R6
+Z39 w1393099590
+Z40 8source/timer.sv
+Z41 Fsource/timer.sv
+L0 10
+R10
+r1
+31
+Z42 !s90 source/timer.sv|
+R12
+Z43 !s108 1393099722.588962
+Z44 !s107 source/timer.sv|
+!i10b 1
+!s85 0

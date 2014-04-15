@@ -1,0 +1,27 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/ecegrid/a/mg23/ece337/Lab7
+vlab7_layout_design
+DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!i10b 1
+!s100 O>S9No7>Xk1VNRiZnGP[=3
+I8m<Kkh6;LLYO<7S=X68G21
+V3T<oLcEGnI3Z:>RieK9cj1
+!s105 lab7_layout_design_sv_unit
+S1
+Z1 d/home/ecegrid/a/mg23/ece337/Lab7
+w1393345418
+8source/lab7_layout_design.sv
+Fsource/lab7_layout_design.sv
+L0 9
+Z2 OL;L;10.1b;51
+r1
+!s85 0
+31
+!s108 1393349077.625480
+!s107 source/lab7_layout_design.sv|
+!s90 -work|source_work|source/lab7_layout_design.sv|
+o-work source_work
+tCoverage 63 CoverExcludeDefault 1 CoverOpt 1 CoverFEC 0 CoverShortCircuit 0

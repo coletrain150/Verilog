@@ -1,0 +1,13 @@
+# //  ModelSim SE-64 10.1b Apr 26 2012 Linux 2.6.32-431.3.1.el6.x86_64
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -L /package/eda/cells/OSU/v2.7/cadence/lib/ami05/lib/work -L /home/ecegrid/a/ece337/Class0.5u/GOLD_LIB -Lf /home/ecegrid/a/ece337/Class0.5u/ECE337_IP/vsim -i -t ps source_work. 
+# ** Error: (vsim-11) Could not find source_work.<NULL>.
+# Error loading design
+# Window cannot be closed because the modal window "Quit Vsim" is still open.
